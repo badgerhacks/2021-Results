@@ -1,6 +1,7 @@
 #imports
 import csv
 import requests
+from operator import itemgetter
 
 # declare histogram
 results = dict()
@@ -43,6 +44,8 @@ with open('sheet.csv', newline='') as csvfile:
         row_number += 1
 
 # display results
+results = sorted(results.items(), key=itemgetter(1))
+results.reverse()
 print("\nFINAL RESULTS:")
 print(results)
 print("\n")
