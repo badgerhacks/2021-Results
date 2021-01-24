@@ -7,7 +7,7 @@ results = dict()
 
 # declare judges
 judges = []
-guest_judges = ['Hewitt', 'Rose']
+guest_judges = ['Guest Judge 1', 'Guest Judge 2']
 judge_multiplier = 1.5
 
 # download csv

@@ -7,7 +7,7 @@ Simple script to calculate the amount of points each project earned during Badge
 <li>pip3</li>
 </ul>
 
-## Installation
+## Install Requests
 ```
 pip3 install requests
 ```
